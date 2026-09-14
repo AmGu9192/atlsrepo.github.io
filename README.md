@@ -2,6 +2,6 @@
 
 <html>
   <head>
-    <title>Atls Website</title>
+    <title> Atls Website </title>
   </head>
 </html>
