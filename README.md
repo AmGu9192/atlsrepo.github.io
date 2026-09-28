@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pearl Street Mall - Boulder, Colorado</title>
 <style>
-/* basic page setup */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #efefef;
@@ -13,43 +12,40 @@ body {
   margin: 0;
   line-height: 1.6;
 }
-
-/* top banner with the title */
 header {
   background-color: #2c5f8a;
   color: white;
   text-align: center;
   padding: 25px 15px;
 }
-
 header h1 {
   margin: 0 0 5px 0;
 }
-
 header p {
   margin: 0;
   font-style: italic;
 }
-
-/* nav bar with links to each section */
 nav {
   background-color: #1e4468;
   text-align: center;
   padding: 12px;
   color: white;
 }
-
+nav h2 {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+  color: white;
+  border-bottom: none;
+  padding-bottom: 0;
+}
 nav a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
-
-/* white box that holds the article */
 main {
   background-color: white;
   width: 85%;
@@ -57,35 +53,27 @@ main {
   margin: 20px auto;
   padding: 20px 30px;
 }
-
 h2 {
   color: #2c5f8a;
   border-bottom: 2px solid #2c5f8a;
   padding-bottom: 5px;
 }
-
-/* pictures and captions */
 img {
   max-width: 100%;
   height: auto;
 }
-
 figcaption {
   font-size: 14px;
   color: #777777;
   font-style: italic;
   margin-top: 5px;
 }
-
-/* quick facts box */
 aside {
   background-color: #eaf1f8;
   border-left: 5px solid #2c5f8a;
   padding: 5px 20px;
   margin: 20px 0;
 }
-
-/* bottom of the page */
 footer {
   background-color: #2c5f8a;
   color: white;
@@ -93,7 +81,6 @@ footer {
   padding: 15px;
   font-size: 14px;
 }
-
 footer a {
   color: #ffdd99;
 }
@@ -101,14 +88,13 @@ footer a {
 </head>
 <body>
 
-<!-- header with the page title -->
 <header>
   <h1>Pearl Street Mall</h1>
   <p>A four-block pedestrian mall in Boulder, Colorado</p>
 </header>
 
-<!-- nav links jump down to each section -->
 <nav>
+  <h2>On this page</h2>
   <a href="#introduction">Introduction</a> |
   <a href="#about">About</a> |
   <a href="#history">History</a> |
@@ -116,11 +102,10 @@ footer a {
   <a href="#popular-culture">In popular culture</a>
 </nav>
 
-<!-- main article content -->
 <main>
   <article>
+    <h2>Pearl Street Mall</h2>
 
-    <!-- first section -->
     <section id="introduction">
       <h2>Introduction</h2>
       <figure>
@@ -130,7 +115,6 @@ footer a {
       <p>The Pearl Street Mall (also referred to as Pearl Street, or Downtown Boulder) is a four-block pedestrian mall in Boulder, Colorado, United States. The pedestrian area stretches from 11th Street to 15th Street along Pearl Street and is home to a number of businesses and restaurants as well as the Boulder County Courthouse.</p>
     </section>
 
-    <!-- quick facts box -->
     <aside>
       <h2>Quick facts</h2>
       <ul>
@@ -141,7 +125,6 @@ footer a {
       </ul>
     </aside>
 
-    <!-- about section -->
     <section id="about">
       <h2>About</h2>
       <p>The Pearl Street Mall is a popular destination for tourists visiting Boulder and for students attending the nearby University of Colorado Boulder. The mall hosts a blend of locally owned businesses and national chain stores and restaurants. It is also home to much of Boulder's nightlife. During the summer months, Pearl Street Mall is the stage for a number of street performers, including musicians.</p>
@@ -153,7 +136,6 @@ footer a {
       <p>The Mall is at the heart of downtown Boulder, in the western part of present-day Boulder. The area is an historic district and many of the buildings are among the oldest in Boulder. The Boulder County Courthouse is located in the 1300 block on the north side of the mall. Although the courthouse no longer houses the actual courts for Boulder County, it remains the seat of county government.</p>
     </section>
 
-    <!-- history section -->
     <section id="history">
       <h2>History</h2>
       <p>As a Planning Board member, Carl A. Worthington began working on the project in 1966 in an attempt to revitalize Boulder's downtown. In 1973, he prepared a master plan which was approved by an 86% majority. The design team consisted of three firms: Communication Arts, Inc. (Boulder), Everett Ziegel Associates (Boulder), and Watertown, Massachusetts-based Sasaki Associates. Richard Foy, one of the architects for Communication Arts, cited the 1945 French film <i>Les Enfants du Paradis</i> as an inspiration for the mall, with scenes of busy Parisian streets filled with pedestrians and buskers.</p>
@@ -167,7 +149,6 @@ footer a {
       <p>On January 18, 2013, a city ordinance went into effect that banned smoking on the Pearl Street Mall.</p>
     </section>
 
-    <!-- street performers section -->
     <section id="performers">
       <h2>Notable street performers</h2>
       <p>The Pearl Street Mall has a long history of street performers, including magicians, contortionists, jugglers, and musicians. These are some of the notable performers:</p>
@@ -193,7 +174,6 @@ footer a {
       </figure>
     </section>
 
-    <!-- pop culture section -->
     <section id="popular-culture">
       <h2>In popular culture</h2>
       <p>In the TV series <i>Mork &amp; Mindy</i> (1978-1982), the New York Deli operated by Remo and Jean DaVinci was located at 1117 Pearl Street. The actual deli of the same name and location closed in June 1999.</p>
@@ -203,7 +183,6 @@ footer a {
   </article>
 </main>
 
-<!-- footer with credits -->
 <footer>
   <p>Article content adapted from <a href="https://en.wikipedia.org/wiki/Pearl_Street_Mall">Wikipedia: Pearl Street Mall</a>.</p>
   <p>Made for ATLS 3150 - Universal Design, Assignment 4: Semantic HTML5 Part 1.</p>
